@@ -1,0 +1,905 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: #284854;
+    padding-top: 22px;
+    padding-bottom: 170px;
+}
+
+.header {
+    display: flex;
+    width: 1230px;
+    height: 81px;
+    background: #60C1BD;
+    border: 2px solid #60C1BD;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin-top: 22px;
+    margin-left: 270px;
+}
+
+.banner_inde_vets {
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    margin-left: 44px;
+    margin-top: 20px;
+}
+
+nav {
+    margin-left: 160px;
+    padding-top: 6px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    transition: .4s ease-in-out;
+  }
+
+.topmenu {
+    backface-visibility: hidden;
+  }
+
+.topmenu > li {
+    display: inline-block;
+    position: relative;
+}
+  
+.topmenu > li > a {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 22px;
+    padding-right: 84px;
+    padding-left: 30px;
+    color: #284854;
+}
+
+.topmenu li a:hover { color: #E6855F; }
+.submenu {
+    background: white;
+    border: 5px solid #003559;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: 200px;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transition: .6s ease-in-out;
+}
+  
+.topmenu > li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg);
+}
+  
+.submenu li a {
+    color: #7f7f7f;
+    font-size: 13px;
+    line-height: 36px;
+    padding: 0 25px;
+    font-family: 'Roboto';
+}
+
+.button_login_header {
+    width: 77px;
+    height: 27px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 19px;  
+    color: #fff;
+    font-family: 'Roboto';
+    background: #60C1BD;
+    margin-left: 67px;
+    margin-top: 26px;
+}
+
+.button_login_header:hover {
+    background: #f00;
+    color: #ff0;
+}
+
+.flexbox_info_about_mission {
+    display: flex;
+    width: 1200px;
+    margin-left: 120px;
+}
+
+.flex_element_text {
+    width: 650px;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.container_banner_of_veterinary {
+    width: 650px;
+    height: 306px;
+    padding-bottom: 1px;
+}
+
+.banner_of_veterinary {
+    font-family: 'Roboto';
+    font-size: 85px;
+    line-height: 102px;
+    color: #8BC441;
+}
+
+.container_info_about_mission {
+    width: 542px;
+    height: 112px;
+    margin-top: 60px;
+}
+
+.info_about_mission {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.flex_element_img_friends {
+    width: 312px;
+    height: 350px;
+    margin-top: 162px;
+    margin-left: 48px;
+}
+
+.wrapper_two {
+    height: 350px;
+}
+
+.flex_container_veterinarians_hospitals {
+    display: flex;
+    position: absolute;
+    width: 1179px;
+    height: 203px;
+    left: 295px;
+    top: 790px;
+    z-index: 1;
+}
+
+.flex_element_veterinarians, .flex_element_hospitals {
+    display: flex;
+    width: 506px;
+    height: 203px;
+    background: #F4F6F0;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_element_veterinarians {
+    margin-right: 83px;
+}
+
+.woman_cat, .dog_cat {
+    width: 101px;
+    height: 111px;
+}
+
+.banner_text_one, .banner_text_two {
+    width: 297px;
+    height: 106px;
+}
+
+.banner_veterinarians, .banner_hospitals {
+    font-family: 'Roboto';
+    font-size: 37px;
+    line-height: 43px;
+    color: #8BC441;
+    margin-left: 46px;
+}
+
+.container_text_under_banner {
+    margin-top: 9px;
+    margin-left: 46px;
+    width: 182px;
+    height: 54px;
+}
+
+.text_under_banner {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #60C1BD;
+}
+
+.banner_how_work_indevets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 289px;
+}
+
+.preface {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #60C1BD;
+}
+
+.main_banner {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    color: #284854;
+}
+
+.container_one_posibilities, .container_three_posibilities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1054px;
+    margin-top: 111px;
+}
+
+.dog_with_drum, .dog_with_telescope, .friends {
+    width: 285px;
+    height: 317px;
+}
+
+.flex_element_with_description {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 540px;
+    margin-left: 130px;
+}
+
+.step {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #798B56;
+}
+
+.banner_with_description {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #8BC441;
+    padding-bottom: 20px;
+}
+
+.description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 29px;
+    color: #284854;
+    width: 525px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.container_two_posibilities {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1054px;
+    margin-top: 111px;
+}
+
+.dog_with_telescope {
+    padding-left: 80px;
+}
+
+.wrapper_three {
+    background: #F4F6F0;
+    margin-top: 1145px;
+}
+
+.container_four_posibilities {
+    display: flex;
+    flex-basis: 1074px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 78px ;
+    padding-bottom: 127px;
+}
+
+.harmony {
+    width: 450px;
+    height: 383px;
+}
+
+.flex_element_with_description_last {
+    display: flex;
+    flex-basis: 512px;
+    flex-direction: column;
+    margin-left: 112px;
+}
+
+.step_last {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #60C1BD;
+}
+
+.banner_with_description_last {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 64px;
+    color: #284854;
+}
+
+.description_last {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #284854;
+    padding-top: 31px;
+}
+
+.why_indevets {
+    border: 1px solid #60C1BD;
+    box-sizing: border-box;
+    width: 121px;
+    height: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #60C1BD;
+    margin-top: 50px;
+}
+
+.why_indevets:hover {
+    background: #9acd32;
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.wrapper_four {
+    background: #8BC441;
+}
+
+.call_to_action {
+    display: flex;
+    flex-basis: 1090px;
+    height: 270px;
+    padding-top: 83px;
+    margin-left: 183px;
+    padding-bottom: 84px;
+}
+
+.dog_on_bicycle {
+    width: 240px;
+    height: 261px;
+}
+
+.container_flex_column_sentences {
+    display: flex;
+    flex-direction: column;
+    margin-left: 167px;
+    flex-basis: 682px;
+    height: 266px;
+}
+
+.banner {
+    font-family: 'Roboto';
+    font-size: 55px;
+    line-height: 64px;
+    color: #FFFFFF;
+    width: 523px;
+    height: 128px;
+}
+
+.two_sentences {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    height: 81px;
+    padding-top: 57px;
+}
+
+.sentence {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 242px;
+    height: 81px;
+}
+
+.footer {
+    width: 1196px;
+    height: 360px;
+    margin-top: 42px;
+    margin-left: 194px;
+    margin-bottom: 42px;
+}
+
+.flex_container_links {
+    display: flex;
+    width: 1136px;
+    height: 154px;
+}
+
+.container_veterinarians_links {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 154px;
+}
+
+.container_hospitals_links {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 154px;
+}
+
+.name_box {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #284854;
+    padding-bottom: 25px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #60C1BD;
+    padding-bottom: 19px;
+}
+
+.link:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+.dog_man {
+    width: 230px;
+    height: 210px;
+    padding-top: 20px;
+}
+
+.container_address {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 263px;
+    padding-left: 97px;
+}
+
+.address, .phone_number {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+    color: #60C1BD;
+    padding-bottom: 4px;
+}
+
+.box_phone_number {
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+    width: 241px;
+    height: 46px;
+}
+
+.container_auxiliary_links {
+    display: flex;
+    width: 568px;
+    height: 23px;
+    justify-content: space-between;
+    margin-top: 53px;
+    margin-bottom: 50px;
+}
+
+.auxiliary_links {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #60C1BD;
+    height: 16px;
+}
+
+.auxiliary_links:hover {
+    color: #f00;
+    cursor: pointer;
+}
+
+.trademark {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #284854;
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper, .header {
+        max-width: 1024px;
+    }
+
+    .header {
+        margin-left: 0;
+    }
+
+    nav {
+        margin-left: 66px;
+    }
+
+    .flexbox_info_about_mission {
+        width: 1024px;
+        margin-left: 0;
+    }
+
+    .flex_element_text {
+        width: 561px;
+        margin-left: 10px;
+    }
+
+    .flex_container_veterinarians_hospitals {
+        width: 1024px;
+        left: 0;
+    }
+
+    .flex_element_veterinarians {
+        margin-right: 12px;
+    }
+
+    .flex_element_with_description_last {
+        margin-left: 95px;
+    }
+
+    .call_to_action {
+        margin-left: 0;
+    }
+
+    .dog_on_bicycle {
+        margin-right: 155px;
+    }
+
+    .container_flex_column_sentences {
+        margin-left: 0;
+    }
+
+    .footer {
+        width: 1024px;
+        margin-left: 0;
+    }
+
+    .flex_container_links {
+        width: 1024px;
+        margin-left: 10px;
+    }
+
+    .container_auxiliary_links {
+        margin-top: 93px;
+        margin-bottom: 70px;
+        margin-left: 35px;
+        margin-right: 0;
+    }
+
+    .container_address {
+        padding-left: 20px;
+        width: 186px;
+    }
+
+    .dog_man {
+        width: 208px;
+    }
+
+    .box_phone_number {
+        width: 138px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper, .header {
+        max-width: 375px;
+    }
+
+    .header {
+        display: flex;
+        width: 375px;
+        height: 81px;
+        background: #60C1BD;
+        border: 2px solid #60C1BD;
+        box-sizing: border-box;
+        border-radius: 100px;
+        margin-top: -21px;
+        margin-left: 0px;
+    }
+
+    .button_login_header {
+        margin-left: 139px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .banner_inde_vets {
+        margin-left: 13px;
+    } 
+    
+    .flexbox_info_about_mission {
+        display: flex;
+        flex-direction: column;
+        width: 357px;
+        margin-left: 0px;
+    }
+    
+    .flex_element_text {
+        width: 375px;
+        height: 100px;
+        margin-top: 3px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .container_banner_of_veterinary {
+        width: 375px;
+        height: 306px;
+        padding-bottom: 1px;
+    }
+    
+    .banner_of_veterinary {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    
+    .container_info_about_mission {
+        width: 375px;
+        height: 112px;
+        margin-top: 162px;
+        text-align: center;
+    }
+    
+    .info_about_mission {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        line-height: 28px;
+        color: #fff;
+    }
+    
+    .flex_element_img_friends {
+        width: 312px;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .flex_container_veterinarians_hospitals {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 375px;
+        height: 203px;
+        left: 0px;
+        top: 726px;
+        z-index: 1;
+    }
+    
+    .flex_element_veterinarians, .flex_element_hospitals {
+        display: flex;
+        width: 375px;
+        height: 203px;
+        background: #F4F6F0;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .flex_element_veterinarians {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .banner_how_work_indevets {
+        margin-top: 252px;
+    }
+
+    .main_banner {
+        text-align: center;
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .container_one_posibilities, .container_three_posibilities {
+        flex-direction: column;
+        margin-top: 46px;
+        height: 579px;
+    }
+
+    .flex_element_with_description {
+        flex-basis: 375px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .description {
+        width: 374px;
+    }
+
+    .container_two_posibilities {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .dog_with_telescope {
+        padding-left: 0px;
+    }
+
+    .wrapper_three {
+        margin-top: 1762px;
+        height: 823px;
+    }
+
+    .container_four_posibilities {
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 823px;
+    }
+
+    .flex_element_with_description_last {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .harmony {
+        width: 334px;
+    }
+
+    .why_indevets {
+        margin-left: 125px;
+        margin-top: 39px;
+    }
+
+    .wrapper_four {
+        height: 574px;
+    }
+
+    .call_to_action {
+        flex-direction: column;
+        margin-left: 0px;
+        padding-top: 4px;
+    }
+
+    .dog_on_bicycle {
+        padding-left: 58px;
+    }
+
+    .container_flex_column_sentences {
+        margin-left: 0;
+    }
+
+    .banner {
+        width: 375px;
+        height: 55px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    .two_sentences {
+        flex-direction: column;
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .footer {
+        margin-left: 0;
+        width: 375px;
+    }
+
+    .flex_container_links {
+        width: 375px;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .container_veterinarians_links {
+        width: 188px;
+        margin-left: 92px;
+        text-align: center;
+        background: cornflowerblue;
+        border-radius: 5px;
+    }
+
+    .name_box {
+        font-size: 20px;
+        padding-top: 10px;
+        color: #fff;
+    }
+
+    .link {
+        font-size: 17px;
+        color: #ff0;
+    }
+
+    .container_hospitals_links {
+        width: 213px;
+        margin-left: 79px;
+        margin-top: 20px;
+        text-align: center;
+        background: cornflowerblue; 
+        border-radius: 5px;
+    }
+
+    .container_auxiliary_links {
+        width: 156px;
+        height: 120px;
+        justify-content: normal;
+        flex-direction: column;
+        margin-top: 187px;
+        margin-left: 110px;
+        text-align: center;
+        background: cornflowerblue;
+        border-radius: 5px;
+    }
+
+    .dog_man {
+        padding-top: 190px;
+        padding-left: 70px;
+    }
+
+    .container_address {
+        width: 186px;
+        text-align: center;
+        background: cornflowerblue;
+        border-radius: 5px;
+        padding-left: 0px;
+        margin-left: 105px;
+        margin-top: 10px;
+    }
+
+    .box_phone_number {
+        width: 184px;
+    }
+
+    .address, .phone_number {
+        color: #ff0;
+    }
+
+    .auxiliary_links {
+        font-size: 20px;
+        color: #ff0;
+        padding-top: 2px;
+        padding-bottom: 1px;
+    }
+
+    .trademark {
+        position: relative;
+        top: 448px;
+        left: 280px;
+    }
+}
