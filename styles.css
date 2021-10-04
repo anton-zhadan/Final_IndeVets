@@ -5,7 +5,7 @@
 
 .wrapper {
     background: #284854;
-    padding-top: 22px;
+    padding-top: 35px;
     padding-bottom: 170px;
 }
 
@@ -17,8 +17,8 @@
     border: 2px solid #60C1BD;
     box-sizing: border-box;
     border-radius: 100px;
-    margin-top: 22px;
-    margin-left: 270px;
+    padding-top: 0px;
+    margin: 0 auto;
 }
 
 .banner_inde_vets {
@@ -119,19 +119,16 @@ nav ul {
 .flexbox_info_about_mission {
     display: flex;
     width: 1200px;
-    margin-left: 120px;
+    margin: 0 auto;
 }
 
 .flex_element_text {
     width: 650px;
     margin-top: 120px;
-    margin-left: 180px;
 }
 
 .container_banner_of_veterinary {
     width: 650px;
-    height: 306px;
-    padding-bottom: 1px;
 }
 
 .banner_of_veterinary {
@@ -143,7 +140,6 @@ nav ul {
 
 .container_info_about_mission {
     width: 542px;
-    height: 112px;
     margin-top: 60px;
 }
 
@@ -156,7 +152,6 @@ nav ul {
 
 .flex_element_img_friends {
     width: 312px;
-    height: 350px;
     margin-top: 162px;
     margin-left: 48px;
 }
@@ -169,7 +164,6 @@ nav ul {
     display: flex;
     position: absolute;
     width: 1179px;
-    height: 203px;
     left: 295px;
     top: 790px;
     z-index: 1;
@@ -381,10 +375,10 @@ nav ul {
 
 .call_to_action {
     display: flex;
-    flex-basis: 1090px;
+    width: 1090px;
     height: 270px;
     padding-top: 83px;
-    margin-left: 183px;
+    margin: 0 auto;
     padding-bottom: 84px;
 }
 
@@ -428,11 +422,13 @@ nav ul {
 }
 
 .footer {
-    width: 1196px;
-    height: 360px;
     margin-top: 42px;
-    margin-left: 194px;
     margin-bottom: 42px;
+}
+
+.main_footer_container {
+    margin: 0 auto;
+    width: 1196px;
 }
 
 .flex_container_links {
@@ -788,6 +784,7 @@ nav ul {
         flex-direction: column;
         margin-left: 0px;
         padding-top: 4px;
+        width: 375px;
     }
 
     .dog_on_bicycle {
@@ -818,6 +815,10 @@ nav ul {
 
     .footer {
         margin-left: 0;
+        width: 375px;
+    }
+
+    .main_footer_container {
         width: 375px;
     }
 
