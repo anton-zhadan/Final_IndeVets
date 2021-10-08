@@ -613,14 +613,14 @@ nav ul {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
     .wrapper, .header {
-        max-width: 420px;
+        max-width: 425px;
     }
 
     .header {
         display: flex;
-        width: 420px;
+        width: 425px;
         height: 81px;
         background: #60C1BD;
         border: 2px solid #60C1BD;
@@ -645,8 +645,9 @@ nav ul {
     .flexbox_info_about_mission {
         display: flex;
         flex-direction: column;
-        width: 357px;
+        width: 420px;
         margin-left: 0px;
+        margin-right: 0px;
     }
     
     .flex_element_text {
@@ -664,6 +665,7 @@ nav ul {
     }
     
     .banner_of_veterinary {
+        padding-right: 10px;
         font-size: 45px;
         line-height: 55px;
     }
