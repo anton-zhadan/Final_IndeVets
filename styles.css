@@ -614,13 +614,13 @@ nav ul {
 }
 
 @media screen and (max-width: 425px) {
-    .wrapper, .header {
+    .wrapper {
         max-width: 425px;
     }
 
     .header {
         display: flex;
-        width: 425px;
+        width: 358px;
         height: 81px;
         background: #60C1BD;
         border: 2px solid #60C1BD;
@@ -656,6 +656,7 @@ nav ul {
         margin-top: 3px;
         margin-left: 0px;
         text-align: center;
+        margin: 0 auto;
     }
     
     .container_banner_of_veterinary {
@@ -734,7 +735,7 @@ nav ul {
     }
 
     .flex_element_with_description {
-        flex-basis: 420px;
+        width: 420px;
         margin-left: 0;
         text-align: center;
     }
