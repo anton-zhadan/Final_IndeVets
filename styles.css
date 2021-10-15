@@ -613,14 +613,14 @@ nav ul {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
     .wrapper {
-        max-width: 425px;
+        max-width: 375px;
     }
 
     .header {
         display: flex;
-        width: 358px;
+        width: 374px;
         height: 81px;
         background: #60C1BD;
         border: 2px solid #60C1BD;
@@ -645,13 +645,13 @@ nav ul {
     .flexbox_info_about_mission {
         display: flex;
         flex-direction: column;
-        width: 420px;
+        width: 375px;
         margin-left: 0px;
         margin-right: 0px;
     }
     
     .flex_element_text {
-        width: 420px;
+        width: 375px;
         height: 100px;
         margin-top: 3px;
         margin-left: 0px;
@@ -660,7 +660,7 @@ nav ul {
     }
     
     .container_banner_of_veterinary {
-        width: 420px;
+        width: 375px;
         height: 306px;
         padding-bottom: 1px;
     }
@@ -672,7 +672,7 @@ nav ul {
     }
     
     .container_info_about_mission {
-        width: 420px;
+        width: 375px;
         height: 112px;
         margin-top: 162px;
         text-align: center;
@@ -696,8 +696,7 @@ nav ul {
         display: flex;
         flex-direction: column;
         position: absolute;
-        width: 420px;
-        height: 203px;
+        width: 375px;
         left: 0px;
         top: 726px;
         z-index: 1;
@@ -705,7 +704,7 @@ nav ul {
     
     .flex_element_veterinarians, .flex_element_hospitals {
         display: flex;
-        width: 420px;
+        width: 375px;
         height: 203px;
         background: #F4F6F0;
         border-radius: 4px;
@@ -735,7 +734,7 @@ nav ul {
     }
 
     .flex_element_with_description {
-        width: 420px;
+        width: 375px;
         margin-left: 0;
         text-align: center;
     }
@@ -787,7 +786,7 @@ nav ul {
         flex-direction: column;
         margin-left: 0px;
         padding-top: 4px;
-        width: 420px;
+        width: 375px;
     }
 
     .dog_on_bicycle {
@@ -799,7 +798,7 @@ nav ul {
     }
 
     .banner {
-        width: 420px;
+        width: 375px;
         height: 55px;
         font-size: 30px;
         line-height: 30px;
@@ -809,7 +808,7 @@ nav ul {
 
     .two_sentences {
         flex-direction: column;
-        width: 420px;
+        width: 375px;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -818,15 +817,15 @@ nav ul {
 
     .footer {
         margin-left: 0;
-        width: 420px;
+        width: 375px;
     }
 
     .main_footer_container {
-        width: 420px;
+        width: 375px;
     }
 
     .flex_container_links {
-        width: 420px;
+        width: 357px;
         flex-direction: column;
         margin-left: 0;
     }
